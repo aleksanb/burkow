@@ -1,0 +1,14 @@
+{
+  "name": "burkow",
+  "version": "0.1.0",
+  "main": "public/app.js",
+  "ignore": [
+  	"node_modules"
+  ],
+  "dependencies": {
+  	"angular": "*",
+  	"jquery": "*",
+    "bootstrap": "*"
+  },
+  "overrides": {}
+}

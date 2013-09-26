@@ -1,0 +1,32 @@
+{
+  "name": "burkow",
+  "description": "burkow",
+  "author": "Aleksander Vognild Burkow",
+  "version": "0.1.0",
+  "repository": "",
+  "scripts": {
+    "start": "brunch watch --server",
+    "test": "brunch test"
+  },
+  "dependencies": {
+    "brunch": "*",
+    "bower": "*",
+    "auto-reload-brunch": "*",
+
+    "javascript-brunch": "*",
+    "coffee-script": "*",
+
+    "css-brunch": "*",
+    "less-brunch": "*",
+
+    "uglify-js-brunch": "*",
+    "clean-css-brunch": "*",
+
+    "jade-brunch": "*",
+    "static-jade-brunch": "*"
+  },
+  "devDependencies": {
+    "mocha": "*",
+    "chai": "*"
+  }
+}
