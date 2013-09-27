@@ -1,0 +1,48 @@
+//- This gets compiled to index.html under assets. Do not edit assets/index.html directly
+doctype 5
+html(lang="en", ng-app="application")
+  head
+    title= Burkow
+    link(rel="stylesheet", href="css/app.css")
+    meta(name="viewport", content="width=device-width", initial-scale="1.0")
+    
+  body
+    .container
+      h1 Aleksander Vognild Burkow
+      img(src="me.jpg")
+
+    .container(ng-controller="AwesomeController")
+      h2 Awesome
+      dl.inline
+        .row(ng-repeat-start="awesome in awesomes") 
+          dt.col-md-4
+            {{awesome.when}}
+          dd.col-md-8
+            p {{awesome.what}}
+            p {{awesome.descr}}
+        div(ng-repeat-end)
+        
+    .container(ng-controller="JobsController")
+      h2 Erfaring
+      dl.inline
+        .row(ng-repeat-start="job in jobs") 
+          dt.col-md-4
+            | {{job.start}} - 
+            | {{job.end}}
+          dd.col-md-8
+            h3 {{job.where}}
+            p {{job.what}}
+        div(ng-repeat-end)
+
+    .container(ng-controller="EducationsController")
+      h2 Utdanning
+      dl.inline.boldit
+        dt.col-md-4(ng-repeat-start="edu in educations") 
+          | {{edu.start}} - 
+          | {{edu.end}}
+        dd.col-md-8(ng-repeat-end)
+          p {{edu.where}}
+          p {{edu.what}}
+
+    script(src="javascripts/vendor.js")
+    script(src="javascripts/app.js")
