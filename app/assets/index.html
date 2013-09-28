@@ -8,8 +8,13 @@
   <body>
     <div ng-controller="DetailsController" class="container">
       <div class="row">
-        <div class="sidebar"><img src="me.jpg" class="headshot">
-          <div class="details">
+        <div class="col-md-8 col-md-offset-4">
+          <h1>Aleksander Vognild Burkow</h1>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-8 col-md-offset-4"><img src="me.jpg" class="headshot">
+          <div class="details"> 
             <p ng-repeat="detail in details">{{detail.value}}</p>
           </div>
         </div>
@@ -35,7 +40,7 @@
     <div ng-controller="JobsController" class="container">
       <div class="row">
         <div class="col-md-8 col-md-offset-4">
-          <h2>Erfaring</h2>
+          <h2>Experience</h2>
         </div>
       </div>
       <dl class="inline">
@@ -55,18 +60,21 @@
     <div ng-controller="EducationsController" class="container">
       <div class="row">
         <div class="col-md-8 col-md-offset-4">
-          <h2>Utdanning</h2>
+          <h2>Education</h2>
         </div>
       </div>
       <dl class="inline">
-        <dt ng-repeat-start="edu in educations" class="col-md-4">
-          {{edu.start}} - 
-          {{edu.end}}
-        </dt>
-        <dd ng-repeat-end class="col-md-8">
-          <p>{{edu.where}}</p>
-          <p>{{edu.what}}</p>
-        </dd>
+        <div ng-repeat-start="edu in educations" class="row">
+          <dt class="col-md-4">
+            {{edu.start}} - 
+            {{edu.end}}
+          </dt>
+          <dd class="col-md-8">
+            <p>{{edu.where}}</p>
+            <p>{{edu.what}}</p>
+          </dd>
+        </div>
+        <div ng-repeat-end></div>
       </dl>
     </div>
     <script src="javascripts/vendor.js"></script>

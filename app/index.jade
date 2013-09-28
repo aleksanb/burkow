@@ -14,9 +14,12 @@ html(lang="en", ng-app="application")
   body
     .container(ng-controller="DetailsController")
       .row
-        .sidebar
+        .col-md-8.col-md-offset-4
+          h1 Aleksander Vognild Burkow
+      .row
+        .col-md-8.col-md-offset-4
           img.headshot(src="me.jpg")
-          .details
+          .details 
             p(ng-repeat="detail in details") {{detail.value}}
 
     .container(ng-controller="AwesomeController")
@@ -35,7 +38,7 @@ html(lang="en", ng-app="application")
     .container(ng-controller="JobsController")
       .row
         .col-md-8.col-md-offset-4
-          h2 Erfaring
+          h2 Experience
       dl.inline
         .row(ng-repeat-start="job in jobs") 
           dt.col-md-4
@@ -49,14 +52,16 @@ html(lang="en", ng-app="application")
     .container(ng-controller="EducationsController")
       .row
         .col-md-8.col-md-offset-4
-          h2 Utdanning
+          h2 Education
       dl.inline
-        dt.col-md-4(ng-repeat-start="edu in educations")
-          | {{edu.start}} - 
-          | {{edu.end}}
-        dd.col-md-8(ng-repeat-end)
-          p {{edu.where}}
-          p {{edu.what}}
+        .row(ng-repeat-start="edu in educations")
+          dt.col-md-4
+            | {{edu.start}} - 
+            | {{edu.end}}
+          dd.col-md-8
+            p {{edu.where}}
+            p {{edu.what}}
+        div(ng-repeat-end)
 
     script(src="javascripts/vendor.js")
     script(src="javascripts/app.js")
