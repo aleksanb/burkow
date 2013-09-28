@@ -126,7 +126,7 @@ angular.module('CV', [])
     {
       start: 6.2012,
       end: 8.2012,
-      where: "Kongsberg Sattelite Services",
+      where: "Kongsberg Satellite Services",
       description: "Development of mobile-friendly solution for viewing of mapping- and geodata."
     },
     {
