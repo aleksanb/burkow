@@ -12,7 +12,7 @@ html(lang="en", ng-app="application")
         alt="Fork me on GitHub")
     
   body
-    .container(ng-controller="DetailsController")
+    .container(ng-controller="CvController")
       .row
         .col-md-9.col-md-offset-3
           h1 Aleksander Vognild Burkow
@@ -22,20 +22,22 @@ html(lang="en", ng-app="application")
           .details 
             p(ng-repeat="detail in details") {{detail.value}}
 
-    .container(ng-controller="AwesomeController")
+    .container(ng-controller="CvController")
       .row
         .col-md-9.col-md-offset-3
-          h2 Awesome
+          h2 Awesome stuff
       dl.inline
         .row(ng-repeat-start="awesome in awesomes") 
           dt.col-md-3
             {{awesome.when}}
           dd.col-md-9
-            p {{awesome.what}}
-            p {{awesome.descr}}
+            div(ng-switch on="hasUrl(awesome)")
+              a(ng-switch-when="true" href="{{awesome.url}}") {{awesome.what}}
+              p(ng-switch-default) {{awesome.what}}
+            p {{awesome.description}}
         div(ng-repeat-end)
         
-    .container(ng-controller="JobsController")
+    .container(ng-controller="CvController")
       .row
         .col-md-9.col-md-offset-3
           h2 Experience
@@ -45,11 +47,13 @@ html(lang="en", ng-app="application")
             | {{job.start}} - 
             | {{job.end}}
           dd.col-md-9
-            p {{job.where}}
-            p {{job.what}}
+            div(ng-switch on="hasUrl(job)")
+              a(ng-switch-when="true" href="{{job.url}}") {{job.where}}
+              p(ng-switch-default) {{job.where}}
+            p {{job.description}}
         div(ng-repeat-end)
 
-    .container(ng-controller="EducationsController")
+    .container(ng-controller="CvController")
       .row
         .col-md-9.col-md-offset-3
           h2 Education
@@ -59,8 +63,10 @@ html(lang="en", ng-app="application")
             | {{edu.start}} - 
             | {{edu.end}}
           dd.col-md-9
-            p {{edu.where}}
-            p {{edu.what}}
+            div(ng-switch on="hasUrl(edu)")
+              a(ng-switch-when="true" href="{{edu.url}}") {{edu.where}}
+              p(ng-switch-default) {{edu.where}}
+            p {{edu.description}}
         div(ng-repeat-end)
 
     script(src="javascripts/vendor.js")
