@@ -14,51 +14,51 @@ html(lang="en", ng-app="application")
   body
     .container(ng-controller="DetailsController")
       .row
-        .col-md-8.col-md-offset-4
+        .col-md-9.col-md-offset-3
           h1 Aleksander Vognild Burkow
       .row
-        .col-md-8.col-md-offset-4
+        .col-md-9.col-md-offset-3
           img.headshot(src="me.jpg")
           .details 
             p(ng-repeat="detail in details") {{detail.value}}
 
     .container(ng-controller="AwesomeController")
       .row
-        .col-md-8.col-md-offset-4
+        .col-md-9.col-md-offset-3
           h2 Awesome
       dl.inline
         .row(ng-repeat-start="awesome in awesomes") 
-          dt.col-md-4
+          dt.col-md-3
             {{awesome.when}}
-          dd.col-md-8
+          dd.col-md-9
             p {{awesome.what}}
             p {{awesome.descr}}
         div(ng-repeat-end)
         
     .container(ng-controller="JobsController")
       .row
-        .col-md-8.col-md-offset-4
+        .col-md-9.col-md-offset-3
           h2 Experience
       dl.inline
         .row(ng-repeat-start="job in jobs") 
-          dt.col-md-4
+          dt.col-md-3
             | {{job.start}} - 
             | {{job.end}}
-          dd.col-md-8
+          dd.col-md-9
             p {{job.where}}
             p {{job.what}}
         div(ng-repeat-end)
 
     .container(ng-controller="EducationsController")
       .row
-        .col-md-8.col-md-offset-4
+        .col-md-9.col-md-offset-3
           h2 Education
       dl.inline
         .row(ng-repeat-start="edu in educations")
-          dt.col-md-4
+          dt.col-md-3
             | {{edu.start}} - 
             | {{edu.end}}
-          dd.col-md-8
+          dd.col-md-9
             p {{edu.where}}
             p {{edu.what}}
         div(ng-repeat-end)
