@@ -22,10 +22,45 @@ dl.inline {
 	.row {
 		margin-bottom: 0.5em;
 	}
+
+	p:first-child {
+		margin-bottom: 0.3em;
+	}
+
 }
 
-.boldit {
-	p:first-child {
-		font-weight: bold;
+.forkme {
+	position: absolute; 
+	top: 0; right: 0; border: 0; 
+	width: 149px; 
+	height: 149px;
+}
+
+.sticky {
+	position: -webkit-sticky;
+	position: -moz-sticky;
+	position: -ms-sticky;
+	position: -o-sticky;
+	position: sticky;
+}
+
+.sidebar {
+	position: absolute;
+	right: 0px;
+	margin: 1.5em;
+
+	.headshot {
+		height: 10em;
+		margin: 0.5em;
+		float: left;
 	}
+
+	.details {
+		margin: 0.5em;
+		float: right;
+	}
+}
+
+body:last-child {
+	margin-bottom: 2em;
 }

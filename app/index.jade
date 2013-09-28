@@ -5,14 +5,24 @@ html(lang="en", ng-app="application")
     title= Burkow
     link(rel="stylesheet", href="css/app.css")
     meta(name="viewport", content="width=device-width", initial-scale="1.0")
+
+    a(href="https://github.com/aleksanb/burkow")
+      img.forkme(
+        src="http://aral.github.com/fork-me-on-github-retina-ribbons/right-red@2x.png" 
+        alt="Fork me on GitHub")
     
   body
-    .container
-      h1 Aleksander Vognild Burkow
-      img(src="me.jpg")
+    .container(ng-controller="DetailsController")
+      .row
+        .sidebar
+          img.headshot(src="me.jpg")
+          .details
+            p(ng-repeat="detail in details") {{detail.value}}
 
     .container(ng-controller="AwesomeController")
-      h2 Awesome
+      .row
+        .col-md-8.col-md-offset-4
+          h2 Awesome
       dl.inline
         .row(ng-repeat-start="awesome in awesomes") 
           dt.col-md-4
@@ -23,21 +33,25 @@ html(lang="en", ng-app="application")
         div(ng-repeat-end)
         
     .container(ng-controller="JobsController")
-      h2 Erfaring
+      .row
+        .col-md-8.col-md-offset-4
+          h2 Erfaring
       dl.inline
         .row(ng-repeat-start="job in jobs") 
           dt.col-md-4
             | {{job.start}} - 
             | {{job.end}}
           dd.col-md-8
-            h3 {{job.where}}
+            p {{job.where}}
             p {{job.what}}
         div(ng-repeat-end)
 
     .container(ng-controller="EducationsController")
-      h2 Utdanning
-      dl.inline.boldit
-        dt.col-md-4(ng-repeat-start="edu in educations") 
+      .row
+        .col-md-8.col-md-offset-4
+          h2 Utdanning
+      dl.inline
+        dt.col-md-4(ng-repeat-start="edu in educations")
           | {{edu.start}} - 
           | {{edu.end}}
         dd.col-md-8(ng-repeat-end)

@@ -1,4 +1,28 @@
 angular.module('CV', [])
+.controller("DetailsController", function DetailsController($scope) {
+  $scope.details = [
+    {
+      key: "name",
+      value: "Aleksander Vognild Burkow"
+    },
+    {
+      key: "location",
+      value: "Korsgata 19D-16 7030 Trondheim"
+    },
+    {
+      key: "dateOfBirth",
+      value: "29.09.1991"
+    },
+    {
+      key: "phone",
+      value: "+47 47 05 83 99"
+    },
+    {
+      key: "mail",
+      value: "aleksanderburkow (at) gmail.com"
+    }
+  ]
+})
 .controller("AwesomeController", function AwesomeController($scope) {
   $scope.awesomes = [
     {
@@ -9,7 +33,7 @@ angular.module('CV', [])
     },
     {
       when: 2013,
-      what: "KINK DEMO",
+      what: "KINK demo",
       descr: "Demo made for the Robocup competition",
     },
     {
