@@ -27,31 +27,31 @@ angular.module('CV', [])
   $scope.awesomes = [
     {
       when: 2013,
-      what: "Solskogen",
-      descr: "TUNL-MNTN-WTR-TRAIN",
+      what: "TUNL-MNTN-WTER",
+      descr: "WebGL demo made for Solskogen demo party 2013. Pronounced 'tunnel mountain water train'.",
       ranking: 4
     },
     {
       when: 2013,
       what: "KINK demo",
-      descr: "Demo made for the Robocup competition",
+      descr: "A webgl browser demo made for BEKK RoboCup 2013.",
     },
     {
       when: 2013,
       what: "Capra code challenge",
-      descr: "Tekst her",
+      descr: "Capra Code Challenge hosted a 24-hour hacking challenge where the goal was to develop a mobile-first application for TINE SA. Our solution was developed with django for backend using a REST API provided from TINE SA, and jquery-mobile for frontend.",
       ranking: 2
     },
     {
       when: 2013,
       what: "BEKK Robocup",
-      descr: "Vinnere av Bekks robocup 2013",
+      descr: "Part of the winning team of BEKK RoboCup 2013. The contest involved programming Microsoft Kinect and LEGO Mindstorms.",
       ranking: 1
     },
     {
       when: 2013,
       what: "Blast application",
-      descr: "Cross-platform bildedelingsapplikasjon"
+      descr: "Cross-platform location-based image-sharing application"
     }
   ]
 })
@@ -61,13 +61,13 @@ angular.module('CV', [])
       start: 8.2011,
       end: "ongoing",
       where: "NTNU",
-      what: "Master i Datateknikk"
+      what: "Masters degree in computer science"
     },
     {
       start: 8.2010,
       end: 6.2011,
-      where: "Universitetet i Tromsø",
-      what: "Master i Rettsvitenskap"
+      where: "University of Tromsø",
+      what: "Masters degree in law"
     },
     {
       start: 8.2007,
@@ -88,45 +88,44 @@ angular.module('CV', [])
       {
         start: 2.2012,
         end: "ongoing",
-        where: "Studentersamfundet i Trondhjem",
-        what: "Webutvikler"
-
+        where: "Trondheim Student Society",
+        what: "Development and maintenance of public and internal systems"
       },
       {
         start: 8.2013,
         end: "ongoing",
         where: "NTNU",
-        what: "Undervisningsassistent - Algoritmer og Datastrukturer"
+        what: "Teaching assistant - Algorithms and Datastructures"
       },
       {
         start: 6.2013,
         end: 8.2013,
-        where: "Trådløse Trondheim",
-        what: "Javascriptutvikler på MazeMap"
+        where: "Wireless Trondheim",
+        what: "Rewrite and redesign of MazeMap application"
       },
       {
         start: 6.2013,
-        end: 7.2013,
+        end: 8.2013,
         where: "StudiebyEn",
-        what: "Webutvikler Kart"
+        what: "Development of webapp for visualizing campus, student housing, and points of interest"
       },
       {
         start: 1.2013,
         end: 5.2013,
         where: "NTNU",
-        what: "Studentassistent - POOP (c++)"
+        what: "Student assistant - Procedural and object-oriented programming (c++)"
       },
       {
         start: 8.2012,
         end: 12.2012,
         where: "NTNU",
-        what: "Studentassistent - Informasjonsteknologi Grunnkurs"
+        what: "Student assistant - Introduction to information technology"
       },
       {
         start: 6.2012,
         end: 8.2012,
         where: "Kongsberg Sattelite Services",
-        what: "Webutvikler Kart"
+        what: "Development of mobile-friendly solution for viewing of mapping- and geodata."
       },
       {
         start: 1.2012,
@@ -136,15 +135,15 @@ angular.module('CV', [])
       },
       {
         start: 6.2011,
-        end: 7.2011,
-        where: "Tromsø Kommune",
-        what: "Sommervikar - Bygg og anlegg"
+        end: 8.2011,
+        where: "Tromsø Municipality",
+        what: "Summer intern - Maintenance and painting of local shools."
       },
       {
         start: 2006,
         end: 2006,
         where: "NORUT IT",
-        what: "PRYO - Grunnleggende programmering"
+        what: "PRYO - Basic programmering"
       }
     ];
 });
