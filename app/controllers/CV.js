@@ -133,7 +133,7 @@ angular.module('CV', [])
       start: "1.2012",
       end: "1.2012",
       where: "Neumann Bygg",
-      description: "Vareteller"
+      description: "Inventory counter"
     },
     {
       start: "6.2011",
@@ -145,7 +145,7 @@ angular.module('CV', [])
       start: "2006",
       end: "2006",
       where: "NORUT IT",
-      description: "PRYO - Basic programmering"
+      description: "PRYO - Introductory python programming"
     }
   ];
 
