@@ -16,6 +16,8 @@ run:
 .PHONY: deploy
 deploy:
 	git pull origin master
-	brunch build
+	rm -rf public/*
+	rm -rf /var/www/burkow/*
+	brunch build --production
 	mv public/* /var/www/burkow
 

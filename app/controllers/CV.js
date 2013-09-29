@@ -1,5 +1,5 @@
 angular.module('CV', [])
-.controller("CvController", function CvController($scope) {
+.controller("CvController", ["$scope", function CvController($scope) {
   $scope.details = [
     {
       key: "name",
@@ -152,4 +152,4 @@ angular.module('CV', [])
   $scope.hasUrl = function hasUrl(obj) {
     return (typeof obj.url != "undefined");
   };
-});
+}]);
