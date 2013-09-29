@@ -12,3 +12,10 @@ setup:
 .PHONY: run
 run:
 	brunch watch --server
+
+.PHONY: deploy
+deploy:
+	git pull origin master
+	brunch build
+	mv public/* /var/www/burkow
+
