@@ -109,7 +109,7 @@ angular.module('CV', [])
         {
           start: "2013",
           where: "Blast application",
-          description: "Cross-platform location-based image sharing application"
+          description: "Cross-platform location-based image sharing application."
         }
       ]
     },
@@ -120,63 +120,63 @@ angular.module('CV', [])
           start: "2.2012",
           end: "ongoing",
           where: "Trondheim Student Society",
-          description: "Development and maintenance of public and internal systems using Ruby on Rails and PHP",
+          description: "Development and maintenance of public and internal systems using Ruby on Rails and PHP.",
           url: "//samfundet.no"
         },
         {
           start: "8.2013",
           end: "ongoing",
           where: "NTNU",
-          description: "Teaching assistant - Algorithms and Datastructures - Lecturer",
+          description: "Teaching assistant - Algorithms and Datastructures - Lecturer.",
           url: "//www.idi.ntnu.no/~algdat/"
         },
         {
           start: "8.2013",
           end: "ongoing",
           where: "UKA - Norways biggest culture festival",
-          description: "Planning and execution of events",
+          description: "Planning and execution of events.",
           url: "//uka.no"
         },
         {
           start: "6.2013",
           end: "8.2013",
           where: "Wireless Trondheim",
-          description: "Rewrite and redesign of MazeMap using Leaflet",
+          description: "Rewrite and redesign of MazeMap using Leaflet.",
           url: "//mazemap.no"
         },
         {
           start: "6.2013",
           end: "8.2013",
           where: "StudiebyEn",
-          description: "Development of map-application for visualizing campus, student housing, and points of interest using Leaflet and PHP",
+          description: "Development of map-application for visualizing campus, student housing, and points of interest using Leaflet and PHP.",
           url: "//kart.studiebyen.no"
         },
         {
           start: "1.2013",
           end: "5.2013",
           where: "NTNU",
-          description: "Student assistant - Procedural and object-oriented programming (c++)",
+          description: "Student assistant - Procedural and object-oriented programming (c++).",
           url: "//www.idi.ntnu.no/emner/tdt4102/"
         },
         {
           start: "8.2012",
           end: "12.2012",
           where: "NTNU",
-          description: "Student assistant - Introduction to information technology (Python and Matlab)",
+          description: "Student assistant - Introduction to information technology (Python and Matlab).",
           url: "//itgk.idi.ntnu.no/"
         },
         {
           start: "6.2012",
           end: "8.2012",
           where: "Kongsberg Satellite Services",
-          description: "Development of mobile-friendly solution for viewing of mapping- and geodata using Ruby on Rails and OpenLayers",
+          description: "Development of mobile-friendly solution for viewing of mapping- and geodata using Ruby on Rails and OpenLayers.",
           url: "//www.ksat.no/"
         },
         {
           start: "1.2012",
           end: "1.2012",
           where: "Neumann Bygg",
-          description: "Inventory counter"
+          description: "Inventory counter."
         },
         {
           start: "6.2011",
@@ -188,7 +188,7 @@ angular.module('CV', [])
           start: "2006",
           end: "2006",
           where: "NORUT IT",
-          description: "PRYO - Introductory python programming",
+          description: "PRYO - Introductory python programming.",
           url: "//www.norut.no/"
         }
       ]
@@ -200,27 +200,27 @@ angular.module('CV', [])
           start: "8.2011",
           end: "ongoing",
           where: "NTNU",
-          description: "Masters degree in computer science",
+          description: "Masters degree in computer science.",
           url: "//ntnu.no"
         },
         {
           start: "8.2010",
           end: "6.2011",
           where: "University of Tromsø",
-          description: "Masters degree in law",
+          description: "Masters degree in law.",
           url: "//uit.no"
         },
         {
           start: "8.2007",
           end: "6.2010",
           where: "Tromsdalen VGS",
-          description: "Secondary school, exact sciences"
+          description: "Secondary school, exact sciences."
         },
         {
           start: "8.2004",
           end: "6.2007",
           where: "Tromstun Ungdomsskole",
-          description: "Primary school"
+          description: "Primary school."
         }
       ]
     }
