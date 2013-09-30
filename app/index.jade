@@ -18,27 +18,27 @@ html(lang="en" ng-app="application")
   body(ng-controller="CvController")
     .container
       .row
-        .col-md-9.col-md-offset-3
+        .col-sm-8.col-sm-offset-2
           h1.name {{details.name}}
           h3.catchphrase {{details.catchphrase}}
       .row
-        .col-md-9.col-md-offset-3
+        .col-sm-8.col-sm-offset-2
           img.headshot(src="me.jpg")
           .details 
             p(ng-repeat="fact in details.facts") {{fact.value}}
 
     .container(ng-repeat="category in categories")
       .row
-        .col-md-9.col-md-offset-3
+        .col-sm-8.col-sm-offset-2
           h2 {{category.title}}
       dl.inline
         .row(ng-repeat-start="entry in category.entries") 
           div(ng-switch on="hasEnd(entry)")
-            dt.col-md-3(ng-switch-when="true")
+            dt.col-sm-2(ng-switch-when="true")
               | {{entry.start}} - {{entry.end}}
-            dt.col-md-3(ng-switch-default)
+            dt.col-sm-2(ng-switch-default)
               | {{entry.start}}
-          dd.col-md-9
+          dd.col-sm-8
             div(ng-switch on="hasUrl(entry)")
               a(ng-switch-when="true" href="{{entry.url}}")
                 | {{entry.where}}
@@ -49,13 +49,13 @@ html(lang="en" ng-app="application")
 
     .container
       .row
-        .col-md-9.col-md-offset-3
+        .col-sm-8.col-sm-offset-2
           h2 {{expertise.title}}
       dl.inline(ng-repeat="(entry, elements) in expertise.entries")
         .row
-          dt.col-md-3
+          dt.col-sm-2
             | {{entry}}
-          dd.col-md-9
+          dd.col-sm-8
             ul.flex
               li.flex-1(ng-repeat="element in elements")
                 | {{element}}

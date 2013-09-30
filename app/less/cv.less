@@ -1,22 +1,25 @@
 dl.inline {
-	dt, dd {
-		float: left;
+	@media only screen and (min-width: 768px) {
+		dt, dd {
+			float: left;
+		}
+
+		dd + dd {
+			float: none;
+		}
+
+		dd h3 {
+			margin: 0;
+		}
+
+		dt {
+			text-align: right;
+		}
 	}
 
-	dd + dt, dd + dd {
-		clear: left;
-	}
-
-	dd + dd {
-		float: none;
-	}
-
-	dd h3 {
-		margin: 0;
-	}
-
-	dt {
-		text-align: right;
+	dt { 
+		font-weight: lighter;
+		color: #666;
 	}
 
 	.row {
@@ -26,22 +29,20 @@ dl.inline {
 	p:first-child {
 		margin-bottom: 0.3em;
 	}
-
 }
 
 .forkme {
-	position: absolute; 
-	top: 0; right: 0; border: 0; 
-	width: 149px; 
-	height: 149px;
-}
+	display: none;
 
-.sticky {
-	position: -webkit-sticky;
-	position: -moz-sticky;
-	position: -ms-sticky;
-	position: -o-sticky;
-	position: sticky;
+	@media only screen and (min-width: 768px) {
+		display: block;
+		position: absolute;
+		top: 0;
+		right: 0;
+		border: 0;
+		width: 149px;
+		height: 149px;
+	}
 }
 
 .name {
@@ -71,16 +72,10 @@ body:last-child {
 	-moz-flex-flow: row wrap;
 	flex-flow: row wrap;
 
-	-webkit-justify-content: center;
-	-moz-justify-content: center;
-	justify-content: center;
 }
 
 .flex-1 {
-	-webkit-flex: 1 0 auto;
-	-moz-flex: 1 0 auto;
-	flex: 1 0 auto;
-	min-width: 200px;
+	padding-right: 20px;
 }
 
 ul {
@@ -88,11 +83,10 @@ ul {
 	padding-left: 0;
 }
 
-/*html, body {
+.archaic {
 	height:100%;
 	background: url(/me.jpg);
 	text-shadow: 0 0 4px pink;
 	color: yellow;
 	font-family: 'serif';
 }
-*/
