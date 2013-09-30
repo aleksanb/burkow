@@ -182,7 +182,7 @@ angular.module('CV', [])
           start: "6.2011",
           end: "8.2011",
           where: "Tromsø Municipality",
-          description: "Summer intern - Maintenance and painting of local shools."
+          description: "Summer intern - Maintenance and painting of local schools (orange)."
         },
         {
           start: "2006",
