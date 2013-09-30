@@ -206,13 +206,13 @@ angular.module('CV', [])
           start: "8.2007",
           end: "6.2010",
           where: "Tromsdalen VGS",
-          description: "Studiespesialiserende retning"
+          description: "Secondary school, exact sciences"
         },
         {
           start: "8.2004",
           end: "6.2007",
           where: "Tromstun Ungdomsskole",
-          description: "Grunnskole"
+          description: "Primary school"
         }
       ]
     }
