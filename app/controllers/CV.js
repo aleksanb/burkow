@@ -65,17 +65,17 @@ angular.module('CV', [])
       ],
 
       "Facts": [
-        "Has successfully set up Arch linux",
-        "Has played piano for over a decade",
-        "Has played basket for multiple years", 
-        "Has trained karate for multiple years",
-        "Plays cageball"
+        "Has successfully set up Arch linux.",
+        "Has played piano for over a decade.",
+        "Has played basket for multiple years.", 
+        "Has trained karate for multiple years.",
+        "Intermediate cageball player."
       ],
 
       "Organizations": [
         "Trondheim Student Society",
         "UKA - Norways biggest culture festival",
-        "Poëtene - Creative usage of computer science"
+        "Poëtene - Creative usage of comp. sci"
       ]
     }
   };
