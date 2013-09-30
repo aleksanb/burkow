@@ -1,73 +1,64 @@
 //- This gets compiled to index.html under assets. Do not edit assets/index.html directly
 doctype 5
-html(lang="en", ng-app="application")
+html(lang="en" ng-app="application")
   head
     title= Burkow
-    link(rel="stylesheet", href="css/app.css")
-    meta(name="viewport", content="width=device-width", initial-scale="1.0")
+    link(rel="stylesheet" href="css/app.css")
+    meta(
+      charset="utf-8"
+      name="viewport"
+      content="width=device-width"
+      initial-scale="1.0")
 
     a(href="https://github.com/aleksanb/burkow")
       img.forkme(
         src="http://aral.github.com/fork-me-on-github-retina-ribbons/right-red@2x.png" 
         alt="Fork me on GitHub")
     
-  body
-    .container(ng-controller="CvController")
+  body(ng-controller="CvController")
+    .container
       .row
         .col-md-9.col-md-offset-3
-          h1 Aleksander Vognild Burkow
+          h1.name {{details.name}}
+          h3.catchphrase {{details.catchphrase}}
       .row
         .col-md-9.col-md-offset-3
           img.headshot(src="me.jpg")
           .details 
-            p(ng-repeat="detail in details") {{detail.value}}
+            p(ng-repeat="fact in details.facts") {{fact.value}}
 
-    .container(ng-controller="CvController")
+    .container(ng-repeat="category in categories")
       .row
         .col-md-9.col-md-offset-3
-          h2 Awesome stuff
+          h2 {{category.title}}
       dl.inline
-        .row(ng-repeat-start="awesome in awesomes") 
-          dt.col-md-3
-            {{awesome.when}}
+        .row(ng-repeat-start="entry in category.entries") 
+          div(ng-switch on="hasEnd(entry)")
+            dt.col-md-3(ng-switch-when="true")
+              | {{entry.start}} - {{entry.end}}
+            dt.col-md-3(ng-switch-default)
+              | {{entry.start}}
           dd.col-md-9
-            div(ng-switch on="hasUrl(awesome)")
-              a(ng-switch-when="true" href="{{awesome.url}}") {{awesome.what}}
-              p(ng-switch-default) {{awesome.what}}
-            p {{awesome.description}}
-        div(ng-repeat-end)
-        
-    .container(ng-controller="CvController")
-      .row
-        .col-md-9.col-md-offset-3
-          h2 Experience
-      dl.inline
-        .row(ng-repeat-start="job in jobs") 
-          dt.col-md-3
-            | {{job.start}} - 
-            | {{job.end}}
-          dd.col-md-9
-            div(ng-switch on="hasUrl(job)")
-              a(ng-switch-when="true" href="{{job.url}}") {{job.where}}
-              p(ng-switch-default) {{job.where}}
-            p {{job.description}}
+            div(ng-switch on="hasUrl(entry)")
+              a(ng-switch-when="true" href="{{entry.url}}")
+                | {{entry.where}}
+              p(ng-switch-default)
+                | {{entry.where}}
+            p {{entry.description}}
         div(ng-repeat-end)
 
-    .container(ng-controller="CvController")
+    .container
       .row
         .col-md-9.col-md-offset-3
-          h2 Education
-      dl.inline
-        .row(ng-repeat-start="edu in educations")
+          h2 {{expertise.title}}
+      dl.inline(ng-repeat="(entry, elements) in expertise.entries")
+        .row
           dt.col-md-3
-            | {{edu.start}} - 
-            | {{edu.end}}
+            | {{entry}}
           dd.col-md-9
-            div(ng-switch on="hasUrl(edu)")
-              a(ng-switch-when="true" href="{{edu.url}}") {{edu.where}}
-              p(ng-switch-default) {{edu.where}}
-            p {{edu.description}}
-        div(ng-repeat-end)
+            ul.flex
+              li.flex-1(ng-repeat="element in elements")
+                | {{element}}
 
     script(src="javascripts/vendor.js")
     script(src="javascripts/app.js")
