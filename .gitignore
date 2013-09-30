@@ -25,6 +25,9 @@ node_modules/
 # Brunch folder for temporary files.
 tmp/
 
+# Jade compiled templates
+app/assets/*.html
+
 # Brunch output folder.
 public/
 
