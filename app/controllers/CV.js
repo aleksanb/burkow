@@ -85,6 +85,12 @@ angular.module('CV', [])
       title: "Awesome stuff",
       entries: [
         {
+            start: "2013",
+            where: "Magnus Chess Clock",
+            description: "So pure and simple that even Jonathan Ive could love it.",
+            url: "https://play.google.com/store/apps/details?id=no.burkow.magnuschessclock"
+        },
+        {
           start: "2013",
           where: "TUNL-MNTN-WTER",
           description: "WebGL demo made for Solskogen demo party 2013. Pronounced 'tunnel mountain water train'.",
@@ -117,6 +123,13 @@ angular.module('CV', [])
       title: "Experience",
       entries: [ 
         {
+            start: "1.2013",
+            end: "ongoing",
+            where: "NTNU",
+            description: "Teaching assistant - Software Engineering.",
+            url: "//www.ntnu.no/studier/emner/TDT4140"
+        },
+        {
           start: "2.2012",
           end: "ongoing",
           where: "Trondheim Student Society",
@@ -125,7 +138,7 @@ angular.module('CV', [])
         },
         {
           start: "8.2013",
-          end: "ongoing",
+          end: "11.2013",
           where: "NTNU",
           description: "Teaching assistant - Algorithms and Datastructures - Lecturer.",
           url: "//www.idi.ntnu.no/~algdat/"
