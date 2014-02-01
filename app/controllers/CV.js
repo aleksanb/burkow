@@ -224,13 +224,6 @@ angular.module('CV', [])
           url: "//ntnu.no"
         },
         {
-          start: "8.2010",
-          end: "6.2011",
-          where: "University of Tromsø",
-          description: "Masters degree in law.",
-          url: "//uit.no"
-        },
-        {
           start: "8.2007",
           end: "6.2010",
           where: "Tromsdalen VGS",
