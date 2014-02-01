@@ -17,7 +17,7 @@ run:
 deploy:
 	git pull origin master
 	rm -rf public/*
-	rm -rf /var/www/burkow/*
 	brunch build --production
-	mv public/* /var/www/burkow
+	rm -rf /var/www/burkow/cv
+	cp -r public /var/www/burkow/cv
 
