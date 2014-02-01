@@ -123,17 +123,24 @@ angular.module('CV', [])
       title: "Experience",
       entries: [ 
         {
-            start: "1.2013",
+            start: "1.2014",
             end: "ongoing",
             where: "NTNU",
             description: "Teaching assistant - Software Engineering.",
             url: "//www.ntnu.no/studier/emner/TDT4140"
         },
         {
+          start: "1.2014",
+          end: "ongoing",
+          where: "Trondheim Student Society",
+          description: "Head of Web Development and member of the marketing board.",
+          url: "//samfundet.no"
+        },
+        {
           start: "2.2012",
           end: "ongoing",
           where: "Trondheim Student Society",
-          description: "Development and maintenance of public and internal systems using Ruby on Rails and PHP.",
+          description: "Web developer - Development and maintenance of public and internal systems using Ruby on Rails and PHP.",
           url: "//samfundet.no"
         },
         {
@@ -154,14 +161,14 @@ angular.module('CV', [])
           start: "6.2013",
           end: "8.2013",
           where: "Wireless Trondheim",
-          description: "Rewrite and redesign of MazeMap using Leaflet.",
+          description: "Web developer - Rewrite and redesign of MazeMap using Leaflet.",
           url: "//mazemap.no"
         },
         {
           start: "6.2013",
           end: "8.2013",
           where: "StudiebyEn",
-          description: "Development of map-application for visualizing campus, student housing, and points of interest using Leaflet and PHP.",
+          description: "Web developer - Full-stack development of map-application for visualizing campus, student housing, and points of interest using Leaflet and PHP.",
           url: "//kart.studiebyen.no"
         },
         {
@@ -182,7 +189,7 @@ angular.module('CV', [])
           start: "6.2012",
           end: "8.2012",
           where: "Kongsberg Satellite Services",
-          description: "Development of mobile-friendly solution for viewing of mapping- and geodata using Ruby on Rails and OpenLayers.",
+          description: "Web developer - Development of mobile-friendly solution for viewing of mapping- and geodata using Ruby on Rails and OpenLayers.",
           url: "//www.ksat.no/"
         },
         {
