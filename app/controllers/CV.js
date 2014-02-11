@@ -66,6 +66,7 @@ angular.module('CV', [])
 
       "Facts": [
         "Has successfully set up Arch linux.",
+        "Has successfully uninstalled Arch linux",
         "Has played piano for over a decade.",
         "Has played basket for multiple years.", 
         "Has trained karate for multiple years.",
@@ -85,7 +86,7 @@ angular.module('CV', [])
       title: "Awesome stuff",
       entries: [
         {
-            start: "2013",
+            start: "2014",
             where: "Magnus Chess Clock",
             description: "So pure and simple that even Jonathan Ive could love it.",
             url: "https://play.google.com/store/apps/details?id=no.burkow.magnuschessclock"
