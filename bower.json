@@ -6,7 +6,7 @@
   	"node_modules"
   ],
   "dependencies": {
-  	"angular": "1.2.0-rc.2",
+  	"angular": "*",
   	"jquery": "*",
     "bootstrap": "*"
   },

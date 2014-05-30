@@ -15,9 +15,8 @@ run:
 
 .PHONY: deploy
 deploy:
-	git pull origin master
 	rm -rf public/*
-	brunch build --production
-	rm -rf /var/www/burkow/cv
-	cp -r public /var/www/burkow/cv
+	./node_modules/.bin/brunch build --production
+	ssh burkow.no 'rm -rf /var/www/burkow.no/cv && mkdir /var/www/burkow.no/cv'
+	scp -r public/* burkow.no:/var/www/burkow.no/cv
 

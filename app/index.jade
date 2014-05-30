@@ -1,5 +1,5 @@
 //- This gets compiled to index.html under assets. Do not edit assets/index.html directly
-doctype 5
+doctype html
 html(lang="en" ng-app="application")
   head
     title Burkow
@@ -9,6 +9,9 @@ html(lang="en" ng-app="application")
       name="viewport"
       content="width=device-width"
       initial-scale="1.0")
+
+    script(src="javascripts/vendor.js")
+    script(src="javascripts/app.js")
 
     a(href="https://github.com/aleksanb/burkow")
       img.forkme(
@@ -59,10 +62,7 @@ html(lang="en" ng-app="application")
             ul.flex
               li.flex-1(ng-repeat="element in elements")
                 | {{element}}
-
-    script(src="javascripts/vendor.js")
-    script(src="javascripts/app.js")
-    script
+    script.
       var _gaq = _gaq || [];
       _gaq.push(['_setAccount', 'UA-44455648-1']);
       _gaq.push(['_trackPageview']);
