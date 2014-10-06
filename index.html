@@ -1,0 +1,80 @@
+---
+layout: default
+---
+
+<div class=container>
+  <div class=row>
+    <div class="col-sm-8 col-sm-offset-2">
+      <h1 class=name>{{ site.data.details.name }}</h1>
+      <h3 class=catchphrase>{{ site.data.details.catchphrase }}</h3>
+    </div>
+  </div>
+  <div class=row>
+    <div class="col-sm-8 col-sm-offset-2">
+      <img class=headshot src=/images/me.jpg>
+      <div class=details>
+        {% for fact in site.data.details.facts %}
+          <p>{{ fact.value }}</p>
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class=container>
+  {% for category in site.data.categories %}
+    <div class=row>
+      <div class="col-sm-8 col-sm-offset-2">
+        <h2>{{ category.title }}</h2>
+      </div>
+    </div>
+    <dl class=inline>
+      {% for entry in category.entries %}
+        <div class=row>
+          <dt class=col-sm-2>
+            {{ entry.when }}
+          </dt>
+          <dd class=col-sm-8>
+            {% if entry.url %}
+              <a href={{entry.url}}>
+                {{ entry.where }}
+              </a>
+            {% else %}
+              <p>
+                {{ entry.where }}
+              </p>
+            {% endif %}
+            <p>{{ entry.description }}</p>
+          </dd>
+        </div>
+      {% endfor %}
+    </dl>
+  {% endfor %}
+</div>
+
+<div class=container>
+  <div class=row>
+    <div class="col-sm-8 col-sm-offset-2">
+      <h2>Expertise</h2>
+    </div>
+  </div>
+
+  <dl class=inline>
+    {% for category in site.data.expertise %}
+      <div class=row>
+        <dt class=col-sm-2>
+          {{ category.title }}
+        </dt>
+        <dd class=col-sm-8>
+          <ul class=flex>
+            {% for entry in category.entries %}
+              <li class=flex-1>
+                {{ entry }}
+              </li>
+            {% endfor %}
+          </ul>
+        </dd>
+      </div>
+    {% endfor %}
+  </dl>
+</div>

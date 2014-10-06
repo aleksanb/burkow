@@ -1,0 +1,123 @@
+- title: Awesome stuff
+  entries: 
+  - when: 2014
+    where: "Puck, IoT platform for mbed"
+    description: "Internet of things platform for mbed, with your smartphone acting as the central hub"
+    url: "https://nordicsemiconductor.github.io/puck/"
+
+  - when: 2014
+    where: "Inakuwa Oasis"
+    description: "WebGL demo made for Solskogen demo party 2014. Won first place in newschool category"
+    url: "http://arkt.is/inakuwa-oasis/"
+
+  - when: 2014
+    where: "Magnus Chess Clock"
+    description: "So pure and simple that even Jonathan Ive could love it."
+    url: "https://play.google.com/store/apps/details?id=no.burkow.magnuschessclock"
+
+  - when: 2013
+    where: "TUNL-MNTN-WTER"
+    description: "WebGL demo made for Solskogen demo party 2013. Pronounced 'tunnel mountain water train'."
+    url: "//demo.tidla.us/skog"
+
+  - when: 2013
+    where: "KINK demo"
+    description: "A WebGL browser demo made for BEKK RoboCup 2013."
+    url: "//demo.tidla.us/kink-demo/"
+
+  - when: 2013
+    where: "Capra code challenge"
+    description: "Runner-up, Capra Code Challenge. Capra consulting hosted a 24-hour hacking challenge where the goal was to develop a mobile-first application for TINE SA. Our solution was developed with django for backend using a REST API provided from TINE SA, and jquery-mobile for frontend."
+
+  - when: 2013
+    where: "BEKK Robocup"
+    description: "Part of the winning team of BEKK RoboCup 2013. The contest involved programming Microsoft Kinect and LEGO Mindstorms."
+
+  - when: 2013
+    where: "Blast application"
+    description: "Cross-platform location-based image sharing application."
+
+- title: Experience
+  entries:
+    - when: 6.2014 - 8.2014
+      where: Nordic semiconductor
+      description: Greenfield project on the mbed platform. Created an IoT platform with Bluetooth LE.
+      url: //www.nordicsemi.com/
+
+    - when: 1.2014 - 5.2014
+      where: NTNU
+      description: Teaching assistant - Software Engineering.
+      url: //www.ntnu.no/studier/emner/TDT4140
+
+    - when: 1.2014 - ongoing
+      where: Trondheim Student Society
+      description: Head of Web Development and member of the marketing board.
+      url: //samfundet.no
+
+    - when: 2.2012 - ongoing
+      where: Trondheim Student Society
+      description: Web developer - Development and maintenance of public and internal systems using Ruby on Rails and PHP.
+      url: //samfundet.no
+
+    - when: 8.2013 - 11.2013
+      where: NTNU
+      description: Teaching assistant - Algorithms and Datastructures - Lecturer.
+      url: //www.idi.ntnu.no/~algdat/
+
+    - when: 8.2013 - 11.2013
+      where: UKA - Norways biggest culture festival
+      description: Planning and execution of events
+      url: //uka.no
+
+    - when: 6.2013 - 8.2013
+      where: Wireless Trondheim
+      description: Web developer - Rewrite and redesign of MazeMap using Leaflet.
+      url: //mazemap.no
+
+    - when: 6.2013 - 8.2013
+      where: StudiebyEn
+      description: Web developer - Full-stack development of map-application for visualizing campus, student housing, and points of interest using Leaflet and PHP.
+      url: //kart.studiebyen.no
+
+    - when: 1.2013 - 5.2013
+      where: NTNU
+      description: Student assistant - Procedural and object-oriented programming (c++).
+      url: //www.idi.ntnu.no/emner/tdt4102/
+
+    - when: 8.2012 - 12.2012
+      where: NTNU
+      description: Student assistant - Introduction to information technology (Python and Matlab).
+      url: //itgk.idi.ntnu.no/
+
+    - when: 6.2012 - 8.2012
+      where: Kongsberg Satellite Services
+      description: Web developer - Development of mobile-friendly solution for viewing of mapping- and geodata using Ruby on Rails and OpenLayers.
+      url: //www.ksat.no/
+
+    - when: 1.2012
+      where: Neumann Bygg
+      description: Inventory counter.
+
+    - when: 6.2011 - 8.2011
+      where: Tromsø Municipality
+      description: Summer intern - Maintenance and painting of local schools (orange).
+
+    - when: 2006
+      where: NORUT IT
+      description: PRYO - Introductory python programming.
+      url: //www.norut.no/
+
+- title: Education
+  entries:
+    - when: 8.2011 - ongoing
+      where: NTNU
+      description: Masters degree in computer science
+      url: //ntnu.no
+
+    - when: 8.2007 - 6.2010
+      where: Tromsdalen VGS
+      description: Secondary school, exact sciences.
+
+    - when: 8.2004 - 6.2007
+      where: Tromstun Ungdomsskole
+      description: Primary school

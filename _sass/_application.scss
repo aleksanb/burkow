@@ -1,0 +1,92 @@
+dl.inline {
+  @media only screen and (min-width: 768px) {
+    dt, dd {
+      float: left;
+    }
+
+    dd + dd {
+      float: none;
+    }
+
+    dd h3 {
+      margin: 0;
+    }
+
+    dt {
+      text-align: right;
+    }
+  }
+
+  dt { 
+    font-weight: lighter;
+    color: #666;
+  }
+
+  .row {
+    margin-bottom: 0.5em;
+  }
+
+    p:first-child {
+    margin-bottom: 0.3em;
+  }
+}
+
+.forkme {
+  display: none;
+
+  @media only screen and (min-width: 768px) {
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    border: 0;
+    width: 149px;
+    height: 149px;
+  }
+}
+
+.name {
+  margin-bottom: 0;
+}
+
+.catchphrase {
+  margin: 0 auto 10px auto;
+}
+
+.headshot {
+  height: 10em;
+  float: left;
+  margin-right: 1em;
+}
+
+  body:last-child {
+  margin-bottom: 2em;
+}
+
+.flex {
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: flex;
+
+  -webkit-flex-flow: row wrap;
+  -moz-flex-flow: row wrap;
+  flex-flow: row wrap;
+
+}
+
+.flex-1 {
+  padding-right: 20px;
+}
+
+ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.archaic {
+  height:100%;
+  background: url(/images/me.jpg);
+  text-shadow: 0 0 4px pink;
+  color: yellow;
+  font-family: 'serif';
+}

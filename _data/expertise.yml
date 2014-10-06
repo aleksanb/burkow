@@ -1,0 +1,49 @@
+- title: "Computer languages and frameworks:"
+  entries:
+    - "Ruby on Rails"
+    - "Ruby"
+    - "Javascript"
+    - "Node"
+    - "jQuery"
+    - "Leaflet.js"
+    - "Python"
+    - "Java"
+    - "PHP"
+    - "WebGL"
+    - "Three.js"
+    - "CSS & preprocessors"
+    - "HTML & preprocessors"
+    - "Embedded programming (mbed)"
+    - "Bluetooth LE"
+    - "VHDL"
+
+- title: "Facts:"
+  entries:
+    - "Has successfully set up Arch linux."
+    - "Has successfully uninstalled Arch linux"
+    - "Has played piano for over a decade."
+    - "Has played basket for multiple years."
+    - "Has trained karate for multiple years."
+    - "Intermediate cageball player."
+    - "Has held numerous courses for fellow students at NTNU via Pöetene."
+
+- title: "Languages:"
+  entries:
+    - "Norwegian"
+    - "English"
+    - "Dutch"
+    - "French"
+
+- title: "Organizations:"
+  entries:
+    - "Trondheim Student Society"
+    - "UKA - Norways biggest culture festival"
+    - "Poëtene - Creative usage of comp. sci"
+
+- title: "Tools:"
+  entries:
+  - "Git"
+  - "CLI"
+  - "Linux"
+  - "nginx"
+  - "Xilinx ISE"
