@@ -33,12 +33,12 @@
   - when: 2013
     where: "TUNL-MNTN-WTER"
     description: "WebGL demo made for Solskogen demo party 2013. Pronounced 'tunnel mountain water train'."
-    url: "//demo.tidla.us/skog"
+    url: "http://stianj.com/skog/"
 
   - when: 2013
     where: "KINK demo"
     description: "A WebGL browser demo made for BEKK RoboCup 2013."
-    url: "//demo.tidla.us/kink-demo/"
+    url: "http://stianj.com/kink-demo/"
 
   - when: 2013
     where: "Capra code challenge"
