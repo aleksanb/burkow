@@ -1,5 +1,15 @@
 - title: Awesome stuff
   entries:
+  - when: 2014 - 2014
+    where: "Haskell Demolicious Compiler"
+    description: "A compiler for the high-level demolicious language, 'd', written entirely in Haskell"
+    url: "https://github.com/aleksanb/hdc/"
+
+  - when: 2014
+    where: "Demolicious"
+    description: "A functioning computer built from the ground up, with a custom GPU implemented on an FPGA. The components were mounted on a custom 8-layer PCB where a microcontroller acted as the CPU."
+    url: "https://github.com/dmpro2014"
+
   - when: 2014
     where: "Samfundet.no - The project thought unfinishable"
     description: "Lead the team that finished the Trondheim student society's new digital presence"
