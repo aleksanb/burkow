@@ -44,6 +44,11 @@
 
 - title: Experience
   entries:
+    - when: 11.2014 - ongoing
+      where: UKA - Norways biggest culture festival
+      description: Playwright in the children's theatre.
+      url: "https://uka.no/"
+
     - when: 6.2014 - 8.2014
       where: Nordic semiconductor
       description: Greenfield project on the mbed platform. Created an IoT platform with Bluetooth LE.
