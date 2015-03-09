@@ -17,7 +17,7 @@
 
   - when: 2014
     where: "Magnus Chess Clock"
-    description: "So pure and simple that even Jonathan Ive could love it."
+    description: "Android app with over 7 thousand installs.</br>So pure and simple that even Jonathan Ive could love it."
     url: "https://play.google.com/store/apps/details?id=no.burkow.magnuschessclock"
 
   - when: 2013
