@@ -1,3 +1,9 @@
+- title: "Has held popular workshops in:"
+  entries:
+    - "Git and GitHub"
+    - "Graphics development with three.js and webgl"
+    - "Bluetooth development on the mbed platform"
+
 - title: "Computer languages and frameworks:"
   entries:
     - "Ruby on Rails"
