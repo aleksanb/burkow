@@ -1,6 +1,6 @@
 - title: Awesome stuff
   entries:
-  - when: 2014 - 2014
+  - when: 2014 - 2015
     where: "Haskell Demolicious Compiler"
     description: "A compiler for the high-level demolicious language, 'd', written entirely in Haskell"
     url: "https://github.com/aleksanb/hdc/"
