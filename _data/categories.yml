@@ -1,5 +1,10 @@
 - title: Awesome stuff
-  entries: 
+  entries:
+  - when: 2014
+    where: "Samfundet.no - The project thought unfinishable"
+    description: "Lead the team that finished the trondheim student society's new digital presence"
+    url: "https://samfundet.no/"
+
   - when: 2014
     where: "Puck, IoT platform for mbed"
     description: "Internet of things platform for mbed, with your smartphone acting as the central hub"
