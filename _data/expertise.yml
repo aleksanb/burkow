@@ -6,6 +6,9 @@
 
 - title: "Computer languages and frameworks:"
   entries:
+    - "Amazon EC2"
+    - "Nginx rtmp"
+    - "Angular"
     - "Ruby on Rails"
     - "Ruby"
     - "Javascript"
