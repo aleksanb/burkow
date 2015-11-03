@@ -8,7 +8,7 @@
   - when: 2014
     where: "Demolicious"
     description: "A functioning computer built from the ground up, with a custom GPU implemented on an FPGA. The components were mounted on a custom 8-layer PCB where a microcontroller acted as the CPU."
-    url: "https://github.com/dmpro2014"
+    url: "http://demolicio.us/"
 
   - when: 2014
     where: "Samfundet.no - The project thought unfinishable"
