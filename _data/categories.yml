@@ -54,6 +54,16 @@
 
 - title: Experience
   entries:
+    - when: Summer 2015 - ongoing
+      where: Feat.fm (music streaming platform)
+      description: Developed microservices, frontend, backend, realtime services, and self-hosted infinitely scaleable video-streaming infrastructure, all in the cloud.
+      url: "https://feat.fm/"
+
+    - when: Spring 2015
+      where: Nordic semiconductor
+      description: Created and held workshops in Bluetooth development on the mbed platform
+      url: "https://www.mbed.com/en/"
+
     - when: 11.2014 - ongoing
       where: UKA - Norways biggest culture festival
       description: Playwright in the children's theatre.
