@@ -1,4 +1,8 @@
+.PHONY: run
+run:
+	bundle exec jekyll serve
+
 .PHONY: deploy
 deploy:
-	jekyll build
-	cp -r _site/* /var/www/burkow.no/cv/
+	bundle exec jekyll build
+	scp -r _site/* aleksanb@burkow.no:/var/www/burkow.no/cv/
