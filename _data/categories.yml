@@ -1,5 +1,21 @@
 - title: Awesome stuff
   entries:
+  - when: 2015
+    where: "Pre-Master Thesis project"
+    description: "Evolving Functionally Equivalent Reservoirs for RBN Reservoir Computing Systems"
+    url: "https://burkow.no/uploads/forprosjekt-report.pdf"
+
+  - when: 2015
+    where: "Everything is Fashion"
+    description: "WebGL demo made for Solskogen demo party 2015. Won second place in newschool category"
+    url: "http://arkt.is/everything-is-fashion"
+
+  - when: 2015
+    where: "Barneteateret UKA-15 - Cirka absolutt nesten krusedull"
+    description: >
+        Playwright in the critically acclaimed children's theatre.
+    url: "https://burkow.no/uploads/cirka-absolutt-nesten-krusedull.pdf"
+
   - when: 2014 - 2015
     where: "Haskell Demolicious Compiler"
     description: "A compiler for the high-level demolicious language, 'd', written entirely in Haskell"
@@ -7,12 +23,17 @@
 
   - when: 2014
     where: "Demolicious"
-    description: "A functioning computer built from the ground up, with a custom GPU implemented on an FPGA. The components were mounted on a custom 8-layer PCB where a microcontroller acted as the CPU."
+    description: >
+        A functioning computer built from the ground up, with a custom GPU implemented on an FPGA.
+        The components were mounted on a custom 8-layer PCB where a microcontroller acted as the CPU.
     url: "http://demolicio.us/"
 
   - when: 2014
     where: "Samfundet.no - The project thought unfinishable"
-    description: "Lead the team that finished the Trondheim student society's new digital presence"
+    description: >
+        Led the team that finished the Trondheim student society's new digital presence.
+        Now also <a href=https://github.com/Samfundet/Samfundet>open source!</a>
+
     url: "https://samfundet.no/"
 
   - when: 2014
@@ -27,7 +48,7 @@
 
   - when: 2014
     where: "Magnus Chess Clock"
-    description: "Android app with over 7 thousand installs.</br>So pure and simple that even Jonathan Ive could love it."
+    description: "Android app with over 11 thousand installs.</br>So pure and simple that even Jonathan Ive could love it."
     url: "https://play.google.com/store/apps/details?id=no.burkow.magnuschessclock"
 
   - when: 2013
@@ -54,7 +75,7 @@
 
 - title: Experience
   entries:
-    - when: Summer 2015 - ongoing
+    - when: Summer 2015 - 2.2016
       where: Feat.fm (music streaming platform)
       description: Developed microservices, frontend, backend, realtime services, and self-hosted infinitely scaleable video-streaming infrastructure, all in the cloud.
       url: "https://feat.fm/"
@@ -64,7 +85,7 @@
       description: Created and held workshops in Bluetooth development on the mbed platform
       url: "https://www.mbed.com/en/"
 
-    - when: 11.2014 - ongoing
+    - when: 11.2014 - 10.2015
       where: UKA - Norways biggest culture festival
       description: Playwright in the children's theatre.
       url: "https://uka.no/"
