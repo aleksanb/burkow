@@ -1,5 +1,10 @@
 - title: Awesome stuff
   entries:
+  - when: 2017
+    where: "Music Video Dispenser"
+    description: "Create free music videos for your tracks. One click, in your browser."
+    url: "https://www.musicvideodispenser.com/"
+
   - when: 2016
     where: "Masters Thesis"
     description: "Exploring Physical Reservoir Computing using Random Boolean Networks"
