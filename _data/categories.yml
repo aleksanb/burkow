@@ -75,6 +75,11 @@
 
 - title: Experience
   entries:
+    - when: August 2016 - ongoing
+      where: Telenor Digital
+      description: Strategic Engineering with technology driven innovation. Web, machine learning and telco sphere hard science.
+      url: "https://telenordigital.com/"
+
     - when: Summer 2015 - 2.2016
       where: Feat.fm (music streaming platform)
       description: Developed microservices, frontend, backend, realtime services, and self-hosted infinitely scaleable video-streaming infrastructure, all in the cloud.
@@ -86,7 +91,7 @@
       url: "https://www.mbed.com/en/"
 
     - when: 11.2014 - 10.2015
-      where: UKA - Norways biggest culture festival
+      where: UKA - Norway's biggest culture festival
       description: Playwright in the children's theatre.
       url: "https://uka.no/"
 
@@ -105,7 +110,7 @@
       description: Head of Web Development and member of the marketing board.
       url: //samfundet.no
 
-    - when: 2.2012 - ongoing
+    - when: 2.2012 - 6.2016
       where: Trondheim Student Society
       description: Web developer - Development and maintenance of public and internal systems using Ruby on Rails and PHP.
       url: //samfundet.no
