@@ -1,5 +1,10 @@
 - title: Awesome stuff
   entries:
+  - when: 2016
+    where: "Masters Thesis"
+    description: "Exploring Physical Reservoir Computing using Random Boolean Networks"
+    url: "https://brage.bibsys.no/xmlui/handle/11250/2417596"
+
   - when: 2015
     where: "Pre-Master Thesis project"
     description: "Evolving Functionally Equivalent Reservoirs for RBN Reservoir Computing Systems"
