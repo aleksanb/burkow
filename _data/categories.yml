@@ -17,18 +17,18 @@
 
   - when: 2015
     where: "Everything is Fashion"
-    description: "WebGL demo made for Solskogen demo party 2015. Won second place in newschool category"
+    description: "WebGL demo made for Solskogen demo party 2015. Won second place in new school category"
     url: "http://arkt.is/everything-is-fashion"
 
   - when: 2015
     where: "Barneteateret UKA-15 - Cirka absolutt nesten krusedull"
     description: >
-        Playwright in the critically acclaimed children's theatre.
+        Playwright in the critically acclaimed children's play.
     url: "https://burkow.no/uploads/cirka-absolutt-nesten-krusedull.pdf"
 
   - when: 2014 - 2015
     where: "Haskell Demolicious Compiler"
-    description: "A compiler for the high-level demolicious language, 'd', written entirely in Haskell"
+    description: "A compiler for the high-level Demolicious language, 'd', written entirely in Haskell"
     url: "https://github.com/aleksanb/hdc/"
 
   - when: 2014
@@ -53,7 +53,7 @@
 
   - when: 2014
     where: "Inakuwa Oasis"
-    description: "WebGL demo made for Solskogen demo party 2014. Won first place in newschool category"
+    description: "WebGL demo made for Solskogen demo party 2014. Won first place in new school category"
     url: "http://arkt.is/inakuwa-oasis/"
 
   - when: 2014
@@ -73,10 +73,10 @@
 
   - when: 2013
     where: "Capra code challenge"
-    description: "Runner-up, Capra Code Challenge. Capra consulting hosted a 24-hour hacking challenge where the goal was to develop a mobile-first application for TINE SA. Our solution was developed with django for backend using a REST API provided from TINE SA, and jquery-mobile for frontend."
+    description: "Runner-up, Capra Code Challenge. Capra consulting hosted a 24-hour hacking challenge where the goal was to develop a mobile-first application for TINE SA. Our solution was developed with Django for backend using a REST API provided from TINE SA, and jQuery-mobile for frontend."
 
   - when: 2013
-    where: "BEKK Robocup"
+    where: "BEKK RoboCup"
     description: "Part of the winning team of BEKK RoboCup 2013. The contest involved programming Microsoft Kinect and LEGO Mindstorms."
 
   - when: 2013
@@ -92,7 +92,7 @@
 
     - when: Summer 2015 - 2.2016
       where: Feat.fm (music streaming platform)
-      description: Developed microservices, frontend, backend, realtime services, and self-hosted infinitely scaleable video-streaming infrastructure, all in the cloud.
+      description: Developed microservices, frontend, backend, real-time services, and self-hosted infinitely salable video-streaming infrastructure, all in the cloud.
       url: "https://feat.fm/"
 
     - when: Spring 2015
@@ -102,7 +102,7 @@
 
     - when: 11.2014 - 10.2015
       where: UKA - Norway's biggest culture festival
-      description: Playwright in the children's theatre.
+      description: Playwright in the children's play.
       url: "https://uka.no/"
 
     - when: 6.2014 - 8.2014
@@ -127,11 +127,11 @@
 
     - when: 8.2013 - 11.2013
       where: NTNU
-      description: Teaching assistant - Algorithms and Datastructures - Lecturer.
+      description: Teaching assistant - Algorithms and Data structures - Lecturer.
       url: //www.idi.ntnu.no/~algdat/
 
     - when: 8.2013 - 11.2013
-      where: UKA - Norways biggest culture festival
+      where: UKA - Norway's biggest culture festival
       description: Planning and execution of events
       url: //uka.no
 
