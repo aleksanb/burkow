@@ -187,3 +187,10 @@
     - when: 8.2004 - 6.2007
       where: Tromstun Ungdomsskole
       description: Primary school
+
+- title: Certifications
+  entries:
+    - when: 2. 2017 - 3.2017
+      where: INSEAD
+      description: INSEAD-Telenor Strategy Execution Online Programme
+      url: //www.insead.edu/
