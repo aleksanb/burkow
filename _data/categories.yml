@@ -26,7 +26,7 @@
         Playwright in the critically acclaimed children's play.
     url: "https://burkow.no/uploads/cirka-absolutt-nesten-krusedull.pdf"
 
-  - when: 2014 - 2015
+  - when: 2014
     where: "Haskell Demolicious Compiler"
     description: "A compiler for the high-level Demolicious language, 'd', written entirely in Haskell"
     url: "https://github.com/aleksanb/hdc/"
@@ -96,7 +96,7 @@
       url: "https://feat.fm/"
 
     - when: Spring 2015
-      where: Nordic semiconductor
+      where: Nordic Semiconductor
       description: Created and held workshops in Bluetooth development on the mbed platform
       url: "https://www.mbed.com/en/"
 
@@ -106,8 +106,8 @@
       url: "https://uka.no/"
 
     - when: 6.2014 - 8.2014
-      where: Nordic semiconductor
-      description: Greenfield project on the mbed platform. Created an IoT platform with Bluetooth LE.
+      where: Nordic Semiconductor
+      description: Greenfield innovation project on the mbed platform. Created an IoT platform with Bluetooth LE.
       url: //www.nordicsemi.com/
 
     - when: 1.2014 - 5.2014
@@ -175,7 +175,7 @@
 
 - title: Education
   entries:
-    - when: 8.2011 - ongoing
+    - when: 8.2011 - 6.2016
       where: NTNU
       description: Masters degree in computer science
       url: //ntnu.no
