@@ -85,12 +85,12 @@
 
 - title: Experience
   entries:
-    - when: August 2016 - ongoing
+    - when: 15.08.2016 - ongoing
       where: Telenor Digital
       description: Strategic Engineering with technology driven innovation. Web, machine learning and telco sphere hard science.
       url: "https://telenordigital.com/"
 
-    - when: Summer 2015 - 2.2016
+    - when: 6.2015 - 3.2016
       where: Feat.fm (music streaming platform)
       description: Developed microservices, frontend, backend, real-time services, and self-hosted infinitely salable video-streaming infrastructure, all in the cloud.
       url: "https://feat.fm/"
@@ -177,7 +177,11 @@
   entries:
     - when: 8.2011 - 6.2016
       where: NTNU
-      description: Masters degree in computer science
+      description:
+        "Master i Teknologi / Sivilingeniør.
+        Studieprogram: Datateknikk.
+        Hovedprofil: Komplekse datasystemer.
+        (Master of Science, Computer Science)"
       url: //ntnu.no
 
     - when: 8.2007 - 6.2010
