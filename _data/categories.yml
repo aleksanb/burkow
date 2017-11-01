@@ -85,6 +85,11 @@
 
 - title: Experience
   entries:
+    - when: 08.2017 - ongoing
+      where: Hyre
+      description: Hyre is a norwegian startup company creating an easier and more convenient car sharing service, for both the owners and the renters of the vehicles.
+      url: "https://hyre.no/"
+
     - when: 15.08.2016 - 31.7.2017
       where: Telenor Digital
       description: Strategic Engineering with technology driven innovation. Web, machine learning and telco sphere hard science.
