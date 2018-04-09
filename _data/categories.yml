@@ -1,5 +1,10 @@
 - title: Awesome stuff
   entries:
+  - when: 2017-2018
+    where: "HYRE"
+    description: "Bildeling gjort enkelt. Hyre ønsker å gjøre det så enkelt å leie bil, at det blir som å eie. Med Hyre kan du trygt og enkelt booke, åpne, lukke og starte bilen ved hjelp av mobilen. Vi beregner bompasseringer, kilometer kjørt og drivstoff brukt underveis, så når du avslutter leien går betalingen automatisk direkte i appen."
+    url: "https://www.hyre.no/"
+
   - when: 2017
     where: "Music Video Dispenser"
     description: "Create free music videos for your tracks. One click, in your browser."
